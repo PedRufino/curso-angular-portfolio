@@ -3,7 +3,7 @@
   <br>
     Projeto Prático: Portfólio
   <br>
-  [Portfólio - Pedro Rufino](https://pedrufino.github.io/curso-angular-portfolio/)
+  https://pedrufino.github.io/curso-angular-portfolio/
 </h1>
 
 ---
