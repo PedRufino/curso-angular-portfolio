@@ -1,59 +1,89 @@
-# CursoAngularPortfolio
+<h1 align="center">
+  <img src="https://vidafullstack.com.br/wp-content/uploads/2020/07/angular.png" alt="" width="150">
+  <br>
+    Projeto Prático: Portfólio
+  <br>
+  [Portfólio - Pedro Rufino](https://pedrufino.github.io/curso-angular-portfolio/)
+</h1>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+---
 
-## Development server
+## :book: Descrição do Projeto
 
-To start a local development server, run:
+Este é um projeto prático desenvolvido durante o curso de Angular, com o objetivo de criar um portfólio online. O projeto visa apresentar as habilidades adquiridas no desenvolvimento web, com foco em Angular, GitHub Pages e práticas de deploy contínuo. O portfólio inclui informações sobre o desenvolvedor, projetos, tecnologias utilizadas e formas de contato.
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## :rocket: Tecnologias Utilizadas
 
-## Code scaffolding
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **[Angular](https://angular.io/)**: Framework para criação de aplicações web modernas.
+- **[GitHub Pages](https://pages.github.com/)**: Plataforma para hospedar sites estáticos diretamente do repositório GitHub.
+- **[npm](https://www.npmjs.com/)**: Gerenciador de pacotes para JavaScript.
+- **[Angular CLI](https://angular.io/cli)**: Ferramenta de linha de comando para facilitar o desenvolvimento em Angular.
+- **[angular-cli-ghpages](https://www.npmjs.com/package/angular-cli-ghpages)**: Pacote para deploy de aplicações Angular no GitHub Pages.
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## :gear: Instalação e Configuração
 
-```bash
-ng generate --help
-```
+Para rodar o projeto localmente, siga os passos abaixo:
 
-## Building
+1. **Clone o repositório:**
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repo.git
+    ```
 
-To build the project run:
+2. **Navegue até a pasta do projeto:**
+    ```bash
+    cd seu-repo
+    ```
 
-```bash
-ng build
-```
+3. **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+4. **Rode o projeto localmente:**
+    ```bash
+    ng serve
+    ```
 
-## Running unit tests
+5. **Acesse o portfólio no seu navegador:**
+    Abra o navegador e acesse `http://localhost:4200`.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+## :custard: Aprenda a Subir o Seu Código no GitHub Pages
 
-## Running end-to-end tests
+Siga os passos abaixo para realizar o deploy do seu projeto Angular no GitHub Pages:
 
-For end-to-end (e2e) testing, run:
+1. **Instale o angular-cli-ghpages:**
+    ```bash
+    npm i -g angular-cli-ghpages
+    ```
 
-```bash
-ng e2e
-```
+2. **Execute o comando para gerar a build de produção:**
+    ```bash
+    ng build --configuration production --base-href="./[seu-repo]"
+    ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+3. **Realize o deploy com o comando abaixo:**
+    ```bash
+    angular-cli-ghpages --dir=dist/[seu-projeto]
+    ```
 
-## Additional Resources
+4. **Faça o deploy final:**
+    ```bash
+    ng deploy --base-href https://SEU_PERFIL_GITHUB.github.io/SEU_REPO_GITHUB/browser/
+    ```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Com isso, seu portfólio estará acessível através do GitHub Pages.
+
+---
+
+## :heart: Agradecimentos
+
+Com ♥ Pedro Rufino :wave:  
+[LinkedIn](https://www.linkedin.com/in/pedro-rufino-da-mata-neto/)
